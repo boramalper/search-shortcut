@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Search Shortcut",
+  "version": "1.0",
+  "developer": {
+    "name": "Mert Bora ALPER",
+    "url": "http://labs.boramalper.org"
+  },
+
+  "description": "Adds a shortcut (by default Ctrl+Y) to focus on the search box in webpages.",
+
+  "icons": {
+    "64": "icon64.png"
+  },
+
+  "background": {
+    "scripts": [
+      "browser-polyfill.min.js",
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab"
+  ],
+
+  "commands": {
+    "focus": {
+      "suggested_key": {
+        "default": "Ctrl+Y"
+      },
+      "description": "Focus on the search box."
+    }
+  },
+
+  "incognito": "split"
+}
