@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Search Shortcut",
-  "version": "1.1",
+  "version": "1.2",
   "developer": {
     "name": "Mert Bora ALPER",
     "url": "http://labs.boramalper.org"
@@ -27,7 +27,8 @@
   "commands": {
     "focus": {
       "suggested_key": {
-        "default": "Ctrl+Y"
+        "default": "Ctrl+Y",
+        "mac": "MacCtrl+Y"
       },
       "description": "Focus on the search box."
     }
